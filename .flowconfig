@@ -1,0 +1,15 @@
+[ignore]
+.*/node_modules/*
+.*/build/*
+
+[include]
+./src/**/**.js
+
+[libs]
+./node-modules/flow-typed/libdefs.js
+
+[lints]
+
+[options]
+
+[strict]

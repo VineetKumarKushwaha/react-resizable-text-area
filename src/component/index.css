@@ -1,0 +1,75 @@
+.limitContainer {
+    border: 1px dotted red;
+    position: relative;
+}
+
+.limitContainer .colorOptions {
+    position: absolute;
+    top: -45px;
+    background: #80808052;
+    left: 0;
+    right: 0;
+    width: 100px;
+    height: 36px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    user-select: none;
+}
+.limitContainer .colorOptions .background {
+    width: 32px;
+    height: 27px;
+    cursor: pointer;
+    border: 1px solid grey;
+}
+
+.limitContainer .colorOptions .color {
+    width: 32px;
+    height: 27px;
+    cursor: pointer;
+    border: 1px solid grey;
+    font-size: 25px;
+    text-align: center;
+    line-height: 1.2em;
+    font-family: Arial;
+}
+
+.limitContainer .sketch-picker {
+    position: absolute;
+    z-index: 9099999;
+    top: -8px;
+}
+
+.contentEditableStart {
+    display: block;
+    outline: none;
+    border: 1px solid #ff00a5b8;
+    position: absolute;
+    /* height: auto !important; 
+    display: flex;
+    align-items: center;
+    min-width: auto;
+    padding: 7px;
+    box-sizing: border-box;
+    word-break: break-word; */
+}
+
+.contentEditable {
+    z-index: 9;
+    outline: none;
+}
+
+.richTextInputMainWrapper {
+    position: absolute;
+    top: 0px;
+    left: 400px;
+    top: 100px;
+}
+
+#dummyContainer {
+    position: absolute;
+    z-index: -999;
+    pointer-events: none;
+    opacity: 0;
+}

@@ -1,0 +1,68 @@
+.fakeContainer {
+    z-index: 99;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+.fakeContainer .resizers{
+    width: 100%;
+    height: 100%;
+}
+
+.fakeContainer .resizers .resizer {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%; /*magic to turn square into circle*/
+    background: white;
+    border: 3px solid #4286f4;
+}
+
+.fakeContainer .resizers .resizer{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: white;
+    position: absolute;
+}
+
+.fakeContainer .resizers .resizer.top-left {
+    left: -5px;
+    top: -5px;
+    cursor: nwse-resize; /*resizer cursor*/
+}
+.fakeContainer .resizers .resizer.top-right {
+    right: -5px;
+    top: -5px;
+    cursor: nesw-resize;
+}
+
+.fakeContainer .resizers .resizer.bottom-left {
+    left: -5px;
+    bottom: -5px;
+    cursor: nesw-resize;
+}
+
+.fakeContainer .resizers .resizer.bottom-right {
+    right: -5px;
+    bottom: -5px;
+    cursor: nwse-resize;
+}
+
+.fakeContainer .resizers .resizer.middle {
+    right: -5px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    cursor: w-resize;
+}
+
+.fakeContainer .resizers .resizer.leftMiddle {
+    left: -5px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    cursor: w-resize;
+}

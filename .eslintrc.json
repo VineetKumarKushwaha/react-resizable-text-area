@@ -1,0 +1,31 @@
+{
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "extends": "eslint:recommended",
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly",
+        "SyntheticEvent": "readonly"
+    },
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "max-len": [1, 120, 2, { "ignoreComments": true }],
+        "linebreak-style": 0,
+        "react/jsx-uses-react": "error",
+        "react/jsx-uses-vars": ["error"],
+        "no-var": 0,
+        "no-console": 1
+    }
+}
