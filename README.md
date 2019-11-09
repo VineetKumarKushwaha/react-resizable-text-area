@@ -3,7 +3,7 @@ Resizable TextArea in React JS
 npm install --save react react-dom react-resizable-textarea
 
 
-https://vineetkumarkushwaha.github.io/react-resizable-textarea/index.html
+https://vineetkumarkushwaha.github.io/react-resizable-textarea/docs/index.html
 
 Features:-
 1) Increase font size of text by resizing the text area.
