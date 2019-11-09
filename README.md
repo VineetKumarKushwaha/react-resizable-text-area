@@ -24,5 +24,6 @@ Features:-
 />
 ```
 
+[<img src="https://vineetkumarkushwaha.github.io/react-resizable-textarea/docs/Rich Text Input.webm" width="400px">])
 
 
