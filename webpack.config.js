@@ -12,7 +12,7 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, 'lib'),
-    filename: 'react-resizable-textarea.js',
+    filename: 'react-resizable-text-area.js',
     library: 'ResizableTextArea',
     libraryTarget: 'umd'
   },

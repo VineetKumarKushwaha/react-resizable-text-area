@@ -1,8 +1,8 @@
 {
-  "name": "react-resizable-textarea",
+  "name": "react-resizable-text-area",
   "version": "1.0.0",
   "description": "A resizable react text area where you can change background and font color and text.",
-  "main": "lib/react-resizable-textarea.js",
+  "main": "lib/react-resizable-text-area.js",
   "scripts": {
     "lint": "eslint --ext .jsx --ext .js src",
     "flow": "flow",
@@ -18,9 +18,9 @@
   },
   "repository": {
     "type" : "git",
-    "url" : "git+https://github.com/VineetKumarKushwaha/react-resizable-textarea.git"
+    "url" : "git+https://github.com/VineetKumarKushwaha/react-resizable-text-area.git"
   },
-  "homepage": "https://github.com/VineetKumarKushwaha/react-resizable-textarea.git#readme",
+  "homepage": "https://github.com/VineetKumarKushwaha/react-resizable-text-area.git#readme",
   "keywords": [
     "reactjs",
     "react",
