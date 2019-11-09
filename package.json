@@ -1,5 +1,5 @@
 {
-  "name": "@vineetkumarkushwaha/react-resizable-text-area",
+  "name": "react-resizable-textarea-editor",
   "version": "1.0.0",
   "description": "A resizable react text area where you can change background and font color and text.",
   "main": "lib/react-resizable-text-area.js",
